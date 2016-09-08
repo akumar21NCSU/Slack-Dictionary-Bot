@@ -17,11 +17,8 @@ def has_elements(iter):
 
 
 def handler(event, context):
-    '''Provide an event that contains the following keys:
-
-      - operation: one of the operations in the operations dict below
-      - tableName: required for operations that interact with DynamoDB
-      - payload: a parameter to pass to the operation being performed
+    '''Handler which gets called by the Amazon Gateway API.
+	   returns a JSON response.
     '''
     try:
         body = json.dumps(event, indent=2)
