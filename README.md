@@ -4,6 +4,7 @@ This is the dictionary bot for Slack. This bot is powered by the Merriam Webster
 Future Plans: 
 1) Create the 'share this app' button.
 2) Support for synonym and antonym search.
+3) Add NLP to the project.
 
 Usage:<br/>
 /dict < word ><br/>
